@@ -1,0 +1,60 @@
+[0.014s] Invoking command in '/home/liror/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/cpp_pubsub
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.157s] -- The CXX compiler identification is GNU 13.3.0
+[0.172s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.516s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.607s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.648s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.772s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.775s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.868s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.969s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.074s] -- Configuring done (1.0s)
+[1.084s] -- Generating done (0.0s)
+[1.088s] -- Build files have been written to: /home/liror/ros2_ws/build/cpp_pubsub
+[1.096s] Invoked command in '/home/liror/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/cpp_pubsub
+[1.098s] Invoking command in '/home/liror/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[1.156s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[1.167s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o[0m
+[11.921s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[12.437s] [ 75%] Built target talker
+[16.104s] [100%] [32m[1mLinking CXX executable listener[0m
+[16.594s] [100%] Built target listener
+[16.611s] Invoked command in '/home/liror/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[16.612s] Invoking command in '/home/liror/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/ros2_ws/build/cpp_pubsub
+[16.629s] -- Install configuration: ""
+[16.629s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[16.632s] -- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[16.633s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[16.641s] -- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[16.641s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[16.641s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[16.642s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[16.642s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[16.642s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[16.646s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[16.650s] Invoked command in '/home/liror/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/ros2_ws/build/cpp_pubsub
