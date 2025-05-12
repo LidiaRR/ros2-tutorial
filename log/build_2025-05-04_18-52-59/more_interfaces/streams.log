@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/liror/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/more_interfaces
+[0.376s] -- The C compiler identification is GNU 13.3.0
+[0.601s] -- The CXX compiler identification is GNU 13.3.0
+[0.666s] -- Detecting C compiler ABI info
+[0.838s] -- Detecting C compiler ABI info - done
+[0.847s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.849s] -- Detecting C compile features
+[0.850s] -- Detecting C compile features - done
+[0.863s] -- Detecting CXX compiler ABI info
+[1.017s] -- Detecting CXX compiler ABI info - done
+[1.029s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.030s] -- Detecting CXX compile features
+[1.030s] -- Detecting CXX compile features - done
+[1.046s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.219s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.398s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.594s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.608s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.763s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.768s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.889s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.924s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.836s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.283s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.502s] -- Found PythonExtra: /usr/bin/python3  
+[5.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.174s] [31mCMake Error at CMakeLists.txt:30 (target_link_libraries):
+[5.174s]   Cannot specify link libraries for target "puclish_address_book" which is
+[5.174s]   not built by this project.
+[5.174s] 
+[5.174s] [0m
+[5.175s] -- Configuring incomplete, errors occurred!
+[5.188s] Invoked command in '/home/liror/ros2_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/more_interfaces

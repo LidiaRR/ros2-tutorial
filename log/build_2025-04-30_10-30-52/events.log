@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000284] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000308] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000317] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000324] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000335] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/liror/ros2_ws/install/tutorial_interfaces'})}
+[0.000350] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.012786] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.013831] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.013872] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liror/ros2_ws/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/liror/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'liror', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/liror/ros2_ws/install/tutorial_interfaces/lib:/home/liror/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/liror', 'OLDPWD': '/home/liror/ros2_ws/src/cpp_pubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1925', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/liror/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'liror', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'liror', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1891,unix/ubuntu:/tmp/.ICE-unix/1891', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5b88ba3_60bf_42eb_a376_b803cb54c2ff', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SIGR52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/liror/ros2_ws/install/tutorial_interfaces:/home/liror/ros2_ws/install/turtlesim:/home/liror/ros2_ws/install/py_pubsub:/home/liror/ros2_ws/install/my_package:/home/liror/ros2_ws/install/cpp_srvcli:/home/liror/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/liror/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/liror/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/liror/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/liror/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/liror/ros2_ws/install/tutorial_interfaces:/home/liror/ros2_ws/install/turtlesim:/home/liror/ros2_ws/install/my_package:/home/liror/ros2_ws/install/cpp_srvcli:/home/liror/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.065431] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o\x1b[0m\n'}
+[0.080819] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[0.099428] (-) TimerEvent: {}
+[0.201445] (-) TimerEvent: {}
+[0.303266] (-) TimerEvent: {}
+[0.406044] (-) TimerEvent: {}
+[0.509827] (-) TimerEvent: {}
+[0.612267] (-) TimerEvent: {}
+[0.715673] (-) TimerEvent: {}
+[0.817703] (-) TimerEvent: {}
+[0.920315] (-) TimerEvent: {}
+[1.023321] (-) TimerEvent: {}
+[1.123606] (-) TimerEvent: {}
+[1.225648] (-) TimerEvent: {}
+[1.327637] (-) TimerEvent: {}
+[1.429427] (-) TimerEvent: {}
+[1.532249] (-) TimerEvent: {}
+[1.634262] (-) TimerEvent: {}
+[1.736337] (-) TimerEvent: {}
+[1.838445] (-) TimerEvent: {}
+[1.940413] (-) TimerEvent: {}
+[2.042834] (-) TimerEvent: {}
+[2.143314] (-) TimerEvent: {}
+[2.245606] (-) TimerEvent: {}
+[2.348302] (-) TimerEvent: {}
+[2.450393] (-) TimerEvent: {}
+[2.550968] (-) TimerEvent: {}
+[2.653503] (-) TimerEvent: {}
+[2.756804] (-) TimerEvent: {}
+[2.859287] (-) TimerEvent: {}
+[2.961306] (-) TimerEvent: {}
+[3.061834] (-) TimerEvent: {}
+[3.164442] (-) TimerEvent: {}
+[3.266473] (-) TimerEvent: {}
+[3.367483] (-) TimerEvent: {}
+[3.468194] (-) TimerEvent: {}
+[3.570455] (-) TimerEvent: {}
+[3.672474] (-) TimerEvent: {}
+[3.774653] (-) TimerEvent: {}
+[3.877155] (-) TimerEvent: {}
+[3.979445] (-) TimerEvent: {}
+[4.080849] (-) TimerEvent: {}
+[4.181809] (-) TimerEvent: {}
+[4.284304] (-) TimerEvent: {}
+[4.386339] (-) TimerEvent: {}
+[4.488786] (-) TimerEvent: {}
+[4.591018] (-) TimerEvent: {}
+[4.692614] (-) TimerEvent: {}
+[4.794449] (-) TimerEvent: {}
+[4.897279] (-) TimerEvent: {}
+[4.999634] (-) TimerEvent: {}
+[5.100143] (-) TimerEvent: {}
+[5.202053] (-) TimerEvent: {}
+[5.304153] (-) TimerEvent: {}
+[5.406451] (-) TimerEvent: {}
+[5.508369] (-) TimerEvent: {}
+[5.610246] (-) TimerEvent: {}
+[5.712428] (-) TimerEvent: {}
+[5.814380] (-) TimerEvent: {}
+[5.916595] (-) TimerEvent: {}
+[6.020523] (-) TimerEvent: {}
+[6.068466] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.122369] (-) TimerEvent: {}
+[6.224583] (-) TimerEvent: {}
+[6.280953] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.291339] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.291632] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[6.298423] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liror/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/liror/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'liror', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/liror/ros2_ws/install/tutorial_interfaces/lib:/home/liror/ros2_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/liror', 'OLDPWD': '/home/liror/ros2_ws/src/cpp_pubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1925', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/liror/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'liror', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'liror', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1891,unix/ubuntu:/tmp/.ICE-unix/1891', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5b88ba3_60bf_42eb_a376_b803cb54c2ff', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SIGR52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/liror/ros2_ws/install/tutorial_interfaces:/home/liror/ros2_ws/install/turtlesim:/home/liror/ros2_ws/install/py_pubsub:/home/liror/ros2_ws/install/my_package:/home/liror/ros2_ws/install/cpp_srvcli:/home/liror/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/liror/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/liror/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/liror/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/liror/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/liror/ros2_ws/install/tutorial_interfaces:/home/liror/ros2_ws/install/turtlesim:/home/liror/ros2_ws/install/my_package:/home/liror/ros2_ws/install/cpp_srvcli:/home/liror/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[6.305411] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.310293] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.310494] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[6.311776] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.315355] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[6.315468] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.315598] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.316162] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.316223] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.316345] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.316398] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.316446] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.316494] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.316599] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.316701] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.316754] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.316811] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.316878] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.316935] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.316985] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.319327] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.324784] (-) TimerEvent: {}
+[6.331422] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.332356] (-) EventReactorShutdown: {}

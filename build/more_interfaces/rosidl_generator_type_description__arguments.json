@@ -1,0 +1,10 @@
+{
+  "package_name": "more_interfaces",
+  "output_dir": "/home/liror/ros2_ws/build/more_interfaces/rosidl_generator_type_description/more_interfaces",
+  "idl_tuples": [
+    "/home/liror/ros2_ws/build/more_interfaces/rosidl_adapter/more_interfaces:msg/AddressBook.idl"
+  ],
+  "include_paths": [
+    "rosidl_tutorials_msgs:/home/liror/ros2_ws/install/rosidl_tutorials_msgs/share/rosidl_tutorials_msgs"
+  ]
+}

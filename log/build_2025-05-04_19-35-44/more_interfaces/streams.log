@@ -1,0 +1,36 @@
+[0.017s] Invoking command in '/home/liror/ros2_ws/build/more_interfaces': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liror/ros2_ws/build/more_interfaces -- -j2 -l2
+[0.079s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[0.090s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[0.103s] [  5%] Built target more_interfaces__cpp
+[0.126s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[0.168s] [ 27%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.195s] [ 36%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.228s] [ 44%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.259s] [ 52%] Built target more_interfaces__rosidl_typesupport_c
+[0.288s] [ 61%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.318s] [ 69%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.363s] [ 72%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.428s] running egg_info
+[0.448s] writing more_interfaces.egg-info/PKG-INFO
+[0.450s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.450s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.505s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.506s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.536s] [ 72%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.556s] [ 72%] Built target more_interfaces
+[0.578s] [ 75%] Built target more_interfaces__py
+[0.636s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.669s] [ 86%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.696s] [ 91%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[0.736s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[2.770s] [01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[2.770s] [01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:26:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<more_interfaces::msg::AddressBook_<std::allocator<void> > >[m[K’ has no member named ‘[01m[KPHONE_TYPE_MOBILE[m[K’
+[2.770s]    26 |        contact.phone_type = msg.[01;31m[KPHONE_TYPE_MOBILE[m[K;
+[2.772s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.772s] [01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:34:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<more_interfaces::msg::AddressBook_<std::allocator<void> > >[m[K’ has no member named ‘[01m[KPHONE_TYPE_HOME[m[K’
+[2.772s]    34 |        contact.phone_type = msg.[01;31m[KPHONE_TYPE_HOME[m[K;
+[2.772s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.057s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[4.057s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/publish_address_book.dir/all] Error 2
+[4.058s] gmake: *** [Makefile:146: all] Error 2
+[4.061s] Invoked command in '/home/liror/ros2_ws/build/more_interfaces' returned '2': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liror/ros2_ws/build/more_interfaces -- -j2 -l2

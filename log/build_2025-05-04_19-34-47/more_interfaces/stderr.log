@@ -1,0 +1,10 @@
+[01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   26 |        contact.phone_type = [01;31m[Kmessage[m[K.PHONE_TYPE_MOBILE;
+      |                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:34:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   34 |        contact.phone_type = [01;31m[Kmessage[m[K.PHONE_TYPE_HOME;
+      |                             [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/publish_address_book.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

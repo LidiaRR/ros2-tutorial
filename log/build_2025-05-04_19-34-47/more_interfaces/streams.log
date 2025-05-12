@@ -1,0 +1,89 @@
+[0.021s] Invoking command in '/home/liror/ros2_ws/build/more_interfaces': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liror/ros2_ws/build/more_interfaces -- -j2 -l2
+[0.073s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.108s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.205s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.276s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.280s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.426s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.432s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.672s] -- Found rosidl_tutorials_msgs: 0.0.0 (/home/liror/ros2_ws/install/rosidl_tutorials_msgs/share/rosidl_tutorials_msgs/cmake)
+[0.959s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.198s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.561s] -- Configuring done (1.5s)
+[1.626s] -- Generating done (0.1s)
+[1.645s] -- Build files have been written to: /home/liror/ros2_ws/build/more_interfaces
+[1.708s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.727s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[1.932s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[1.953s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.001s] running egg_info
+[2.022s] writing more_interfaces.egg-info/PKG-INFO
+[2.023s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[2.025s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[2.117s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.118s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.152s] [  5%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.163s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.272s] [  8%] Built target more_interfaces__cpp
+[2.513s] [ 13%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[2.513s] [ 13%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o[0m
+[2.556s] [ 16%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[2.586s] [ 19%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[2.631s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[2.647s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.647s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.912s] [ 27%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[2.923s] [ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[3.397s] [ 33%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[3.448s] [ 36%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.450s] [ 36%] Built target more_interfaces__rosidl_typesupport_cpp
+[3.460s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.504s] [ 38%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[3.518s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.742s] [ 44%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[3.748s] [ 47%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[3.785s] [ 50%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.842s] [ 50%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[3.853s] [ 52%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[3.854s] [ 55%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.927s] [ 55%] Built target more_interfaces__rosidl_typesupport_c
+[3.953s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.116s] [ 61%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[4.246s] [ 63%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[4.675s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.729s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.775s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.832s] [ 72%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[4.849s] [ 72%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[4.885s] [ 72%] Built target more_interfaces
+[4.909s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.265s] [ 75%] Built target more_interfaces__py
+[5.293s] [ 77%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[5.423s] [ 80%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_py.so[0m
+[5.470s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[5.499s] [ 83%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.608s] [ 86%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.642s] [ 86%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.688s] [ 88%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.846s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.903s] [ 91%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[5.943s] [ 94%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.087s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so[0m
+[6.140s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[8.297s] [01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[8.297s] [01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[8.297s]    26 |        contact.phone_type = [01;31m[Kmessage[m[K.PHONE_TYPE_MOBILE;
+[8.297s]       |                             [01;31m[K^~~~~~~[m[K
+[8.303s] [01m[K/home/liror/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:34:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[8.303s]    34 |        contact.phone_type = [01;31m[Kmessage[m[K.PHONE_TYPE_HOME;
+[8.303s]       |                             [01;31m[K^~~~~~~[m[K
+[9.773s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[9.773s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/publish_address_book.dir/all] Error 2
+[9.773s] gmake: *** [Makefile:146: all] Error 2
+[9.777s] Invoked command in '/home/liror/ros2_ws/build/more_interfaces' returned '2': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/rosidl_tutorials_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liror/ros2_ws/build/more_interfaces -- -j2 -l2

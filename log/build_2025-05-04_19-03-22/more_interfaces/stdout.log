@@ -1,0 +1,6 @@
+[  2%] Built target more_interfaces__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_more_interfaces
+[  5%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 19%] Built target more_interfaces__rosidl_generator_c
+[ 22%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 22%] Built target more_interfaces__cpp

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-806a57bd6457317dc48b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "rosidl_tutorials_msgs__py",
+					"jsonFile" : "directory-rosidl_tutorials_msgs__py-69a7e46b028b00912cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/liror/ros2_ws/build/rosidl_tutorials_msgs/rosidl_tutorials_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosidl_tutorials_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosidl_tutorials_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosidl_tutorials_msgs_egg-94dddaa77a2d4c5a0bff.json",
+					"name" : "ament_cmake_python_build_rosidl_tutorials_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosidl_tutorials_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosidl_tutorials_msgs-3c0a532ca36c966952eb.json",
+					"name" : "ament_cmake_python_copy_rosidl_tutorials_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs-a362c40bd0fabedd9519.json",
+					"name" : "rosidl_tutorials_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__cpp-84e472dc8608fc78d4c0.json",
+					"name" : "rosidl_tutorials_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosidl_tutorials_msgs__py::@f7cc9cd9371e4a5c4df9",
+					"jsonFile" : "target-rosidl_tutorials_msgs__py-76a120154c583c74d4d6.json",
+					"name" : "rosidl_tutorials_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_generator_c-a949434b7428080196b5.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_generator_py-22f5a1acaa2ed8b3053f.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_generator_type_description-72b161e0eec23a390eac.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_typesupport_c-b6480b4b6398efa2ce70.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_typesupport_cpp-00c0bfebfc609d8f9b72.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_typesupport_fastrtps_c-32d9976422da068691d4.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_typesupport_fastrtps_cpp-8178a9b5f41b2c2c527c.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_typesupport_introspection_c-71e495457b320a8f8d6a.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs__rosidl_typesupport_introspection_cpp-9d3e71f80a41285fefe5.json",
+					"name" : "rosidl_tutorials_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs_s__rosidl_typesupport_c-01cb4173b8317394b3d8.json",
+					"name" : "rosidl_tutorials_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs_s__rosidl_typesupport_fastrtps_c-aec0e8d0d18725733882.json",
+					"name" : "rosidl_tutorials_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs_s__rosidl_typesupport_introspection_c-fa9ffda2924b4290b384.json",
+					"name" : "rosidl_tutorials_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_tutorials_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_tutorials_msgs_uninstall-15de695fdc66f3bc9c4f.json",
+					"name" : "rosidl_tutorials_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-736cd3454b9badf79a88.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liror/ros2_ws/build/rosidl_tutorials_msgs",
+		"source" : "/home/liror/ros2_ws/src/rosidl_tutorials_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

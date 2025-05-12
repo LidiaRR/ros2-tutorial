@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/liror/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/more_interfaces
+[0.043s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.073s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.169s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.246s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.249s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.322s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.323s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.758s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.019s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.316s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.356s] -- Configuring done (1.3s)
+[1.361s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[1.361s]   Cannot find source file:
+[1.361s] 
+[1.361s]     publish_address_book.cpp
+[1.361s] 
+[1.361s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.361s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.362s]   .f95 .f03 .hip .ispc
+[1.362s] 
+[1.362s] [0m
+[1.364s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[1.364s]   No SOURCES given to target: publish_address_book
+[1.364s] 
+[1.364s] [0m
+[1.364s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.377s] Invoked command in '/home/liror/ros2_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/more_interfaces

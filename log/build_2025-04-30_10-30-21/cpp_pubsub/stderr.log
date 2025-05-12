@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/subscriber_lambda.cpp:17[m[K:
+[01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/subscriber_lambda.cpp:[m[K In lambda function:
+[01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/subscriber_lambda.cpp:29:54:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [11][m[K’ and ‘[01m[Kconst tutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Kconst long int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   29 |         RCLCPP_INFO(this->get_logger(), [32m[K"I heard: '"[m[K [01;31m[K<<[m[K [34m[Kmsg.num[m[K << "'");
+      |                                         [32m[K~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~[m[K
+      |                                         [32m[K|[m[K                   [34m[K|[m[K
+      |                                         [32m[Kconst char [11][m[K     [34m[Kconst tutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka const long int}[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

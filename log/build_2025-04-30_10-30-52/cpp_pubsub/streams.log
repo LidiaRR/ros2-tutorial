@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/liror/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.065s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o[0m
+[0.081s] [ 75%] Built target talker
+[6.068s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.282s] [100%] Built target listener
+[6.291s] Invoked command in '/home/liror/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[6.298s] Invoking command in '/home/liror/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/ros2_ws/build/cpp_pubsub
+[6.305s] -- Install configuration: ""
+[6.310s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.310s] -- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[6.312s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.315s] -- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[6.315s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.316s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.316s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.316s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.317s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.317s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.317s] -- Installing: /home/liror/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[6.319s] Invoked command in '/home/liror/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/liror/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/ros2_ws/build/cpp_pubsub

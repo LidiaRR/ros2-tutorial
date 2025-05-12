@@ -1,0 +1,43 @@
+[0.017s] Invoking command in '/home/liror/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liror/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[0.043s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.222s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.327s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.328s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.441s] -- Found tutorial_interfaces: 0.0.0 (/home/liror/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.565s] -- Configuring done (0.5s)
+[0.580s] -- Generating done (0.0s)
+[0.585s] -- Build files have been written to: /home/liror/ros2_ws/build/cpp_srvcli
+[0.627s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.628s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[4.602s] [ 75%] [32m[1mLinking CXX executable server[0m
+[4.730s] [ 75%] Built target server
+[4.901s] [100%] [32m[1mLinking CXX executable client[0m
+[5.026s] [100%] Built target client
+[5.038s] Invoked command in '/home/liror/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/liror/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[5.047s] Invoking command in '/home/liror/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/liror/ros2_ws/build/cpp_srvcli
+[5.053s] -- Install configuration: ""
+[5.053s] -- Installing: /home/liror/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.054s] -- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[5.054s] -- Installing: /home/liror/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.057s] -- Set non-toolchain portion of runtime path of "/home/liror/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[5.057s] -- Installing: /home/liror/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.057s] -- Installing: /home/liror/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.057s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.057s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.057s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.058s] -- Installing: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.058s] -- Up-to-date: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.058s] -- Installing: /home/liror/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.060s] Invoked command in '/home/liror/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liror/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liror/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/liror/ros2_ws/build/cpp_srvcli

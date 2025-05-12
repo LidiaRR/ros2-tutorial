@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_interfaces: 0.0.0 (/home/liror/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/liror/ros2_ws/build/cpp_pubsub
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:19[m[K:
+[01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:40:57:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [14][m[K’ and ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   40 |         RCLCPP_INFO(this->get_logger(), [32m[K"Publishing: '"[m[K [01;31m[K<<[m[K [34m[Kmessage.num[m[K << "'");
+      |                                         [32m[K~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K                          [34m[K|[m[K
+      |                                         [32m[Kconst char [14][m[K            [34m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/subscriber_lambda.cpp:17[m[K:
+[01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/subscriber_lambda.cpp:[m[K In lambda function:
+[01m[K/home/liror/ros2_ws/src/cpp_pubsub/src/subscriber_lambda.cpp:29:54:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [11][m[K’ and ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   29 |         RCLCPP_INFO(this->get_logger(), [32m[K"I heard: '"[m[K [01;31m[K<<[m[K [34m[Kmsg->num[m[K << "'");
+      |                                         [32m[K~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~[m[K
+      |                                         [32m[K|[m[K                    [34m[K|[m[K
+      |                                         [32m[Kconst char [11][m[K      [34m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

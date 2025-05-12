@@ -1,0 +1,7 @@
+{
+  "package_name": "rosidl_tutorials_msgs",
+  "output_dir": "/home/liror/ros2_ws/build/rosidl_tutorials_msgs/rosidl_generator_type_description/rosidl_tutorials_msgs",
+  "idl_tuples": [
+    "/home/liror/ros2_ws/build/rosidl_tutorials_msgs/rosidl_adapter/rosidl_tutorials_msgs:msg/Contact.idl"
+  ]
+}

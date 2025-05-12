@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/liror/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/tutorial_interfaces
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.091s] -- The CXX compiler identification is GNU 13.3.0
+[0.106s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.386s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.462s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.490s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.504s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.570s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.833s] -- Configuring incomplete, errors occurred!
+[0.833s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.833s]   Packages installing interfaces must include
+[0.833s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.834s]   package.xml
+[0.834s] Call Stack (most recent call first):
+[0.834s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.834s] 
+[0.834s] [0m
+[0.843s] Invoked command in '/home/liror/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/liror/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/liror/ros2_ws/install/tutorial_interfaces

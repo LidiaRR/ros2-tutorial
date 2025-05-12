@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from more_interfaces/msg/AddressBook.msg
+// generated code does not contain a copyright notice
+
+#include "rosidl_tutorials_msgs/msg/Contact.idl"
+
+module more_interfaces {
+  module msg {
+    struct AddressBook {
+      sequence<rosidl_tutorials_msgs::msg::Contact> address_book;
+    };
+  };
+};
